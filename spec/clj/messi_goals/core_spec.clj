@@ -4,4 +4,5 @@
 
 (describe "A Clojure test"
           (it "adds (goals 0 0 0)"
-              (should= (goals 0 0 0) 0)))(run-specs)
+              (should= (goals 0 0 0) 0)
+              (should= (goals 54 8 3) 65)))(run-specs)
